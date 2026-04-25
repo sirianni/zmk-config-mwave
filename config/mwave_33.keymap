@@ -78,7 +78,7 @@
 
         combo_win_layer {
             bindings = <&tog 1>;
-            key-positions = <16 46>;
+            key-positions = <16 0>;
         };
     };
 
