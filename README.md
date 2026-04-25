@@ -4,16 +4,18 @@ This repository contains the keymap files for the Kinesis mWave Mechanical Keybo
 
 Kinesis does not officially support installing custom firmware on this device and no documentation, support or troubleshooting is offered. Proceed at your own risk. If you were to brick your keyboard with custom firmware that would invalidate your warranty.
 
+## Flashing instructions
+1. Connect the keyboard to your PC over USB and slide the Profile Switch to the bottom position.
+2. Double-click the `Reset` button on the underside of the keyboard through the small hole near the USB port to mount a removable drive called `MWAVE`.
+3. Copy the `.uf2` file to the drive.
+
+See [Kinesis site](https://kinesis-ergo.com/support/kb150p/) for more details.
 
 ## File Structure
-
-[config/mwave_33.conf](config/mwave_33.conf): This file contains local Kconfig override flags
-
-[config/mwave_33.keymap](config/mwave_33.keymap): This file contains the ANSI Windows keymap
-
-[config/mwave_33_mac.keymap](config/mwave_33_mac.keymap): This file contains the ANSI Mac keymap
-
-[config/mwave_33_iso.keymap](config/mwave_33_iso.keymap): This file contains the ISO keymap
+- [config/mwave_33.conf](config/mwave_33.conf): This file contains local Kconfig override flags
+- [config/mwave_33.keymap](config/mwave_33.keymap): This file contains the ANSI Windows keymap
+- [config/mwave_33_mac.keymap](config/mwave_33_mac.keymap): This file contains the ANSI Mac keymap
+- [config/mwave_33_iso.keymap](config/mwave_33_iso.keymap): This file contains the ISO keymap
 
 All other files in the [config/](config/) folder should not be edited. They contain crucial configuration information for the functionality of the device.
 
