@@ -76,10 +76,10 @@
             bindings = <&caps_word>;
         };
 
-        combo_win_layer {
-            bindings = <&tog 1>;
-            key-positions = <16 0>;
-        };
+        // combo_win_layer {
+        //    bindings = <&tog 1>;
+        //    key-positions = <16 0>;
+        // };
     };
 
     keymap {
